@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="outer">
+        <div>
+            <input id="input" type="text" placeholder="Location">
+            <button onclick="search()" id="btn">Search</button>
+        </div>
+        <div id="outer2">
+            <div id="innerdiv1">
+                <h1 id="h1">0 &deg;</h1>
+                <h2 id="city">City</h2>
+                <p id="para">Country</p>
+                <!-- <p id="p">Today, expect a rainy day with the temprature reaching a maximun with 28 degree make sure to grab a umberlla!</p>
+            </div> -->
+            <div id="innerdiv2">
+                <div class="div">
+                    <h2>Maximun</h2>
+                    <h1 id="max">30</h1>
+                    <p>humidity is making feel warmer</p>
+                </div>
+                <div class="div">
+                    <h2 >Minimum</h2>
+                    <h1 id="min">2.3</h1>
+                    <p>2' expected in next 2 hours</p>
+                </div>
+                <div class="div" >
+                    <h2 >Preasure</h2>
+                    <h1 id="pre"> 0</h1>
+                    <p></p>
+                </div>
+                <div class="div">
+                    <h2>Humidity</h2>
+                    <h1 id="hum">0</h1>
+                    <p>the dew point is 25' right now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

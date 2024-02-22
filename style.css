@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url('./rain.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.outer{
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    border-radius: 13px;
+}
+
+#p{
+    font-size: small;
+    font-weight:lighter;
+}
+
+input{
+    height: 23px;
+    width: 300px;
+    background-color: gray;
+    padding-left: 30px;
+    margin-left: 70px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+input::placeholder{
+    color: whitesmoke;
+}
+.div{
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    margin: 20px 37px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.div p{
+    padding-top: 35px;
+}
+
+.div h2{
+    color: gray;
+}
+
+#innerdiv2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#outer2{
+    text-align: center;
+    margin-top: 20px;
+    background: linear-gradient(top,rgba(0,0,0,0.5),rgba)(0,0,0,0.2);
+}
